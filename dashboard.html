@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal | Dashboard</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body id="dashboard-page" class="dashboard-page">
+
+    <header class="topbar">
+        <div class="topbar-brand">
+            <img src="assets/images/logo.png" alt="" class="topbar-logo">
+            <span class="topbar-name">Student Portal</span>
+        </div>
+        <button type="button" id="logoutBtn" class="btn btn-logout">
+            <img src="assets/images/mdi--logout.png" alt="" class="btn-icon">
+            <span>Logout</span>
+        </button>
+    </header>
+
+    <section class="dashboard-main">
+
+        <h1 class="page-title">Student Portal</h1>
+
+        <article class="welcome-card">
+            <h2 id="welcomeText" class="welcome-text">Welcome!</h2>
+            <p class="welcome-sub">Here is your student information.</p>
+        </article>
+
+        <section class="info-grid">
+
+            <article class="info-card">
+                <img src="assets/images/user.png" alt="" class="info-icon">
+                <div class="info-text">
+                    <span class="info-label">Username</span>
+                    <span id="usernameValue" class="info-value">-</span>
+                </div>
+            </article>
+
+            <article class="info-card">
+                <img src="assets/images/coolicons--id-badge.png" alt="" class="info-icon">
+                <div class="info-text">
+                    <span class="info-label">Student ID</span>
+                    <span id="studentIdValue" class="info-value">-</span>
+                </div>
+            </article>
+
+            <article class="info-card">
+                <img src="assets/images/email.png" alt="" class="info-icon">
+                <div class="info-text">
+                    <span class="info-label">Email</span>
+                    <span id="emailValue" class="info-value">-</span>
+                </div>
+            </article>
+
+        </section>
+
+    </section>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
